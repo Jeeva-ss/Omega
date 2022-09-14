@@ -1,19 +1,20 @@
 header {
-  min-height: 10vh;
-  padding: 2rem;
-  nav {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    img {
-      width: 10%;
-    }
-    ul {
-      display: flex;
-      gap: 3rem;
-      align-items: center;
-    }
-  }
+	min-height: 10vh;
+	padding: 2rem;
+	nav {
+		width: 90%;
+		margin: auto;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		img {
+			width: 10%;
+			cursor: pointer;
+		}
+		ul {
+			display: flex;
+			gap: 3rem;
+			align-items: center;
+		}
+	}
 }
