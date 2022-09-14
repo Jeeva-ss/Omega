@@ -1,0 +1,23 @@
+.social {
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  h3 {
+    font-size: 5.4rem;
+    color: $color-dark;
+  }
+  p {
+    margin: 2rem 0.5rem;
+    font-size: 1.8rem;
+    color: $color-gray;
+  }
+  img {
+    width: 30%;
+    margin-right: 2rem;
+  }
+  .last {
+    margin-right: 0px;
+  }
+}

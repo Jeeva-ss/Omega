@@ -1,0 +1,43 @@
+.header {
+  .main-head {
+    width: 90%;
+    margin: auto;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-head {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 40%;
+    }
+    .header-form {
+      padding: 0.5rem;
+      display: flex;
+      align-items: center;
+      margin: 2rem 0;
+      border: 1px solid #eae9f2;
+      border-radius: 9px;
+      img {
+        width: 10%;
+      }
+      input {
+        border: none;
+        outline: none;
+        padding: 1.5rem;
+        width: 100%;
+      }
+      button {
+        padding: 1.5rem;
+        background: $color-orange;
+        border: none;
+        outline: none;
+        color: $color-white;
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  }
+}

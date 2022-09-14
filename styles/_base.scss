@@ -1,0 +1,75 @@
+// Color variables
+$color-white: #fff;
+$color-dark: #19191b;
+$color-orange: #f04037;
+$color-purple: #5454d4;
+$color-gray: #696871;
+
+// CSS Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+  background: #fcfdfe;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: $color-dark;
+}
+
+.demo {
+  color: $color-orange;
+}
+
+.app {
+  padding: 1rem;
+  border-radius: 5px;
+  background: $color-orange;
+  color: $color-white;
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: $color-dark;
+  line-height: 6.3rem;
+}
+
+p {
+  font-size: 1.8rem;
+  color: $color-dark;
+  line-height: 3.5rem;
+  font-weight: normal;
+  letter-spacing: -0.59px;
+}
+
+blockquote {
+  font-size: 1.8rem;
+  font-style: italic;
+  line-height: 3.5rem;
+  margin: 2rem 0;
+  color: $color-white;
+}

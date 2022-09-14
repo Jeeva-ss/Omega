@@ -1,0 +1,25 @@
+footer {
+  border-top: 1px solid #eae9f2;
+  min-height: 10vh;
+  padding: 2rem;
+  .end {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+      width: 20%;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+}

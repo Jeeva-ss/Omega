@@ -1,0 +1,17 @@
+.making-second {
+  .main-head {
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-head {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 50%;
+    }
+  }
+}

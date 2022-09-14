@@ -1,0 +1,70 @@
+.making {
+  .main-head {
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-head {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 50%;
+    }
+    .header-form {
+      padding: 0.5rem;
+      display: flex;
+      align-items: center;
+      margin: 2rem 0;
+      border: 1px solid #eae9f2;
+      border-radius: 9px;
+      img {
+        width: 10%;
+      }
+      input {
+        border: none;
+        outline: none;
+        padding: 1.5rem;
+        width: 100%;
+      }
+      button {
+        padding: 1.5rem;
+        background: $color-orange;
+        border: none;
+        outline: none;
+        color: $color-white;
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+    .sub-head {
+      display: flex;
+      gap: 3rem;
+      margin: 3rem 0;
+      .inner-head {
+        position: relative;
+        .one {
+          background: $color-purple;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          border-radius: 50%;
+          color: $color-white;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      h2 {
+        font-size: 1.8rem;
+      }
+      p {
+        font-size: 1.4rem;
+        color: $color-gray;
+        line-height: 3.5rem;
+      }
+    }
+  }
+}

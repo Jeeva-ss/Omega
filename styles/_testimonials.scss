@@ -1,0 +1,19 @@
+.testimonials {
+  background: $color-purple;
+  .main-testimonials {
+    min-height: 50vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  .star {
+    width: 5%;
+  }
+  p {
+    color: $color-white;
+    font-size: 1.4rem;
+  }
+}

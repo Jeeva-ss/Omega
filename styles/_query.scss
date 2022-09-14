@@ -1,0 +1,158 @@
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    .main-head {
+      padding: 10rem;
+      flex-wrap: wrap;
+      text-align: center;
+      .img-head {
+        order: 2;
+        margin-top: 3rem;
+      }
+      .header-form {
+        img {
+          width: 5%;
+        }
+      }
+    }
+  }
+  .testimonials {
+    .main-testimonials {
+      flex-wrap: wrap;
+      padding: 5rem;
+    }
+  }
+  .making .main-head {
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    img {
+      width: 40%;
+    }
+    h1,
+    .textp {
+      text-align: center;
+    }
+    .main-text {
+      order: 2;
+    }
+    .img-head {
+      order: 1;
+    }
+    .sub-head {
+      align-items: center;
+    }
+  }
+  .making-second .main-head {
+    flex-wrap: wrap;
+    text-align: center;
+    img {
+      width: 40%;
+    }
+  }
+  .making-third .main-head {
+    flex-wrap: wrap;
+    text-align: center;
+    img {
+      width: 40%;
+    }
+    .img-head {
+      order: 1;
+    }
+    .main-text {
+      order: 2;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    .main-head {
+      padding: 2rem;
+    }
+  }
+  header {
+    nav {
+      width: unset;
+      img {
+        width: 20%;
+      }
+      ul {
+        gap: 2rem;
+      }
+    }
+  }
+  h1 {
+    font-size: 4rem;
+  }
+
+  .app {
+    padding: 0.5rem;
+  }
+  .testimonials {
+    .main-testimonials {
+      padding: 2rem;
+    }
+  }
+  .making .main-head {
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    .sub-head .inner-head .one {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  footer {
+    .end {
+      flex-wrap: wrap;
+      justify-content: center;
+      img {
+        width: 30%;
+      }
+      .logo {
+        display: inline-block;
+        margin: 2rem 0;
+        text-align: center;
+      }
+      ul {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+      }
+    }
+  }
+  .social {
+    h3 {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  h1 {
+    font-size: 3rem;
+  }
+  header {
+    padding: 2rem 0;
+    nav {
+      width: 90%;
+      margin: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+      img {
+        width: 30%;
+      }
+      ul {
+        margin: 2rem 0;
+      }
+    }
+  }
+  .header .main-head .header-form button {
+    padding: 0.5rem;
+  }
+}

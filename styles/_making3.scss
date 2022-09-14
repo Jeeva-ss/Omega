@@ -1,0 +1,26 @@
+.making-third {
+  .main-head {
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img-head {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      width: 50%;
+    }
+    button {
+      padding: 1.5rem;
+      background: $color-orange;
+      border: none;
+      outline: none;
+      color: $color-white;
+      margin: 2rem 0;
+      border-radius: 5px;
+    }
+  }
+}
